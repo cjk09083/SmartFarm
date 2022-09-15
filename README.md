@@ -38,9 +38,7 @@
 
  - 측정한 데이터중 온습도 데이터는 차트로 확인
 <div align="center">
-<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/Screenshot_20180926-122917.png" width="55%"/>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github.com/cjk09083/S.O.S/blob/main/%EC%82%AC%EC%A7%84/motion.jpg" width="35%"/>
+<img src="https://github.com/cjk09083/SmartFarm/blob/main/%EC%82%AC%EC%A7%84%20%EB%B0%8F%20%EC%98%81%EC%83%81/%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%99%94%EB%A9%B4.jpg" width="30%"/>
 </div></br>
 
 ## 관련논문
