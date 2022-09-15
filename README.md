@@ -30,8 +30,7 @@
  - 농장의 온습도, 이산화탄소량을 측정해 기준치를 벗어나면 냉방기, 환풍기등 외부기기를 제어
  - 일정 시간마다 반사판을 회전시켜 최적/최대 광량을 공급하는 각도로 제어 및 유지
  <div align="center">
-<img src=" https://github.com/cjk09083/SmartFarm/blob/main/%EC%82%AC%EC%A7%84%20%EB%B0%8F%20%EC%98%81%EC%83%81/%EB%86%8D%EC%9E%A5%20%EB%82%B4%EB%B6%80.jpg
-" width="60%"/>
+<img src="https://github.com/cjk09083/SmartFarm/blob/main/%EC%82%AC%EC%A7%84%20%EB%B0%8F%20%EC%98%81%EC%83%81/%EB%86%8D%EC%9E%A5%20%EB%82%B4%EB%B6%80.jpg" width="50%"/>
    &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/cjk09083/SmartFarm/blob/main/%EC%82%AC%EC%A7%84%20%EB%B0%8F%20%EC%98%81%EC%83%81/%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EB%88%84%EC%A0%81%EA%B4%91%EB%9F%89%20%ED%99%94%EB%A9%B4.jpg" width="30%"/>
 </div></br>
