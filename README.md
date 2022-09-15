@@ -9,4 +9,12 @@
 </a>
 </div>
 
-## Senior Observation System : 스마트팜 프로젝트
+## 스마트팜 프로젝트
+
+
+
+
+## 관련논문
+<a href="https://ieeexplore.ieee.org/document/9268238" target="_blank">
+Light Control Smart Farm Monitoring System with Reflector Control
+</a>
