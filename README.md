@@ -25,7 +25,11 @@
 - 앱 <-> 서버 <-> 아두이노 통신 (HTTP, MQTT)
 
 ## 기능
-### 1. 센서 정보 서버업로드 및 모니터링
+
+### 1. 농장 환경에 따른 최적화 자동제어
+ - 실내에서 측정한 각종 센서(온습도, 광량, 이산화탄소) 정보를 서버에 업로드
+ 
+### 2. 센서 정보 서버업로드 및 모니터링
  - 실내에서 측정한 각종 센서(온습도, 광량, 이산화탄소) 정보를 서버에 업로드
  - 전용 어플리케이션(Android)에서 이를 모니터링
 <div align="center">
@@ -40,6 +44,13 @@
 <div align="center">
 <img src="https://github.com/cjk09083/SmartFarm/blob/main/%EC%82%AC%EC%A7%84%20%EB%B0%8F%20%EC%98%81%EC%83%81/%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EA%B7%B8%EB%9E%98%ED%94%84%20%ED%99%94%EB%A9%B4.jpg" width="30%"/>
 </div></br>
+
+### 3. 자동제어 기준치 변경
+ - 스마트팜의 자동제어 기준치 (온도, 습도, 이산화탄소)를 변경 후 해당 농장에 적용한다.
+<div align="center">
+<img src="https://github.com/cjk09083/SmartFarm/blob/main/%EC%82%AC%EC%A7%84%20%EB%B0%8F%20%EC%98%81%EC%83%81/%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%A0%9C%EC%96%B4%20%EA%B8%B0%EC%A4%80%EC%B9%98%20%ED%99%94%EB%A9%B4.jpg" width="30%"/>
+</div></br>
+ 
 
 ## 관련논문
 <a href="https://ieeexplore.ieee.org/document/9268238" target="_blank">
