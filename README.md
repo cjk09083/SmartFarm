@@ -11,7 +11,7 @@
 
 ## 스마트팜 자동제어 및 모니터링  
 
-<img src="https://github.com/cjk09083/SmartFarm/blob/main/%EC%82%AC%EC%A7%84%20%EB%B0%8F%20%EC%98%81%EC%83%81/%EC%A1%B0%EA%B0%90%EB%8F%84/perspective%20view.jpg" width="70%"/>
+<img src="https://github.com/cjk09083/SmartFarm/blob/main/%EC%82%AC%EC%A7%84%20%EB%B0%8F%20%EC%98%81%EC%83%81/%EC%A1%B0%EA%B0%90%EB%8F%84/perspective%20view.jpg" width="100%"/>
 
 
 
