@@ -30,9 +30,9 @@
  - 전용 어플리케이션(Android)에서 이를 모니터링
 <div align="center">
 <img src="https://github.com/cjk09083/SmartFarm/blob/main/%EC%82%AC%EC%A7%84%20%EB%B0%8F%20%EC%98%81%EC%83%81/%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.jpg" width="30%"/>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/cjk09083/SmartFarm/blob/main/%EC%82%AC%EC%A7%84%20%EB%B0%8F%20%EC%98%81%EC%83%81/%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EB%88%84%EC%A0%81%EA%B4%91%EB%9F%89%20%ED%99%94%EB%A9%B4.jpg" width="30%"/>
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;
 <img src="https://github.com/cjk09083/SmartFarm/blob/main/%EC%82%AC%EC%A7%84%20%EB%B0%8F%20%EC%98%81%EC%83%81/%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%ED%99%94%EB%A9%B4.jpg" width="30%"/>
 </div></br>
 
