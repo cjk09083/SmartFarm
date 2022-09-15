@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#548235</color>
+    <color name="colorPrimaryDark">#30491f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_color">#ececec</color>
+    <color name="theme_color">#548235</color>
+    <color name="theme_color2">#000000</color>
+
+    <!-- FlatUI Color -->
+    <color name="FlatLightAqua">#68acec</color>
+
+    <color name="colorWhite">#ecf0f1</color>
+    <color name="White">#ffffff</color>
+    <color name="greedWhite">#11ffffff</color>
+
+    <color name="primaryText">#212121</color>
+    <color name="primaryText2">#6b6b6b</color>
+    <color name="primaryText3">#1a2f74</color>
+    <color name="primaryText4">#d7d7d7</color>
+
+    <color name="buttonColor">#d7d7d7</color>
+    <color name="blakcgrey">#535353</color>
+
+    <color name="circle">#e13825</color>
+
+
+    <color name="article_1">#F3BB71</color>
+    <color name="article_2">#FE85A6</color>
+    <color name="article_3">#7AECED</color>
+    <color name="article_4">#B1DC71</color>
+    <color name="article_5">#9DB5F1</color>
+    <color name="article_6">#BD84D6</color>
+    <color name="article_7">#FF000000</color>
+
+    <color name="red">#FFC93437</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#0a7c27</color>
+    <color name="black">#FF000000</color>
+</resources>

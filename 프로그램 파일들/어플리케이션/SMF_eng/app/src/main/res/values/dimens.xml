@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="gas_title_size">25sp</dimen>
+
+    <dimen name="seekbar_margin">50dp</dimen>
+    <dimen name="seekbar_holo_width">4dp</dimen>
+</resources>

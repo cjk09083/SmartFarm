@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/theme_color"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <View
+        android:background="#66bdbdbd"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/start_date_btn"
+            android:text="기준치"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:padding="16dp"
+            android:gravity="center"
+            android:background="@color/theme_color"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"/>
+
+
+    </LinearLayout>
+    <!-- Notice -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:background="@color/background_color"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:gravity="center"
+                android:background="@color/background_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:textSize="20sp"
+                android:textColor="@color/background_color"
+                android:background="@color/theme_color"
+                android:text="최소값"
+                android:gravity="center"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"/>
+
+            <TextView
+                android:textSize="20sp"
+                android:textColor="@color/background_color"
+                android:background="@color/theme_color"
+                android:text="최대값"
+                android:gravity="center"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"/>
+
+            <Button
+                android:textSize="20sp"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:background="@color/background_color"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="온도"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+            <EditText
+                android:id="@+id/mintempET"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+
+            <EditText
+                android:id="@+id/maxtempET"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+
+            <Button
+                android:text="설정"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:onClick="mOnTemp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="습도"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+            <EditText
+                android:id="@+id/minhumidET"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:gravity="center"
+                android:layout_weight="1.5"
+                android:inputType="numberDecimal"
+
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+
+            <EditText
+                android:id="@+id/maxhumidET"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+
+            <Button
+                android:text="설정"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:onClick="mOnHumid"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="Co2"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+            <EditText
+                android:id="@+id/minco2ET"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+
+            <EditText
+                android:id="@+id/maxco2ET"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+
+            <Button
+                android:text="설정"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"
+                android:onClick="mOnCo2"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- Notice -->
+    <View
+        android:background="#66bdbdbd"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <!-- 닫기 버튼 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="종료"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:background="@color/theme_color"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="mOnClose"
+            />
+    </LinearLayout>
+    <!--// 닫기 버튼 -->
+</LinearLayout>

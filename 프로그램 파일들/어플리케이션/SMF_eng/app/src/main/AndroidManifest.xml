@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cjk.smf">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <!-- 알람 Service -->
+        <service
+            android:name=".Adapters.Alarmservice"
+            android:enabled="true"
+            android:exported="true" />
+
+
+        <!-- 부팅/재시작 Receiver -->
+        <receiver
+            android:name=".Activitys.RestartService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="RestartService"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="ACTION.RESTART.PersistentService" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+
+        <activity
+            android:name=".Activitys.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- 메인 Activity -->
+        <activity android:name="cjk.smf.MainActivity">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <!-- Fragment Activity -->
+        <activity android:name=".Activitys.Fragment_Client"/>
+        <!-- 자료확인 Activity -->
+        <activity android:name=".Activitys.RecyclerActivity"/>
+        <!-- 로딩 Activity -->
+        <activity android:name=".Activitys.LoadingActivity"/>
+        <!-- 기준치 Activity -->
+        <activity android:name=".Activitys.referencePopup"
+            android:theme="@android:style/Theme.Dialog"/>
+        <!-- 알람 팝업 Activity -->
+        <activity
+            android:name=".Activitys.PopupActivity"
+            android:theme="@android:style/Theme.Dialog" />
+    </application>
+
+</manifest>

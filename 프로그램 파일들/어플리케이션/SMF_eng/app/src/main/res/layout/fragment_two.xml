@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/farm_name"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:text="이름"
+            android:textColor="@color/primaryText"
+            android:textSize="25sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/farm_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="날짜"
+            android:textColor="@color/primaryText2"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_tag_delete"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/FlatLightAqua"
+            android:padding="5dp"
+            android:text="@string/client_delete"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/timeTV"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/primaryText" />
+
+        <Button
+            android:id="@+id/dayBtn"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/trumpet"
+            android:text="Day"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/weeksBtn"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/trumpet"
+            android:text="Week"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/monthBtn"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/trumpet"
+            android:text="Month"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/yearBtn"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/trumpet"
+            android:text="6 Month"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="visible" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="visible" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="visible" />
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="visible" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

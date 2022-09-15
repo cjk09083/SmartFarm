@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!-- Notice -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:textSize="20sp"
+                android:textColor="@color/background_color"
+                android:background="@color/theme_color"
+                android:text="Min"
+                android:gravity="center"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"/>
+
+            <TextView
+                android:textSize="20sp"
+                android:textColor="@color/background_color"
+                android:background="@color/theme_color"
+                android:text="Max"
+                android:gravity="center"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/temp"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+            <EditText
+                android:id="@+id/mintempET"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+
+            <EditText
+                android:id="@+id/maxtempET"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+
+            <Button
+                android:id="@+id/tempBtn"
+                android:text="Set"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/humid"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+            <EditText
+                android:id="@+id/minhumidET"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:gravity="center"
+                android:layout_weight="1.5"
+                android:inputType="numberDecimal"
+
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+
+            <EditText
+                android:id="@+id/maxhumidET"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+
+            <Button
+                android:id="@+id/humidBtn"
+                android:text="set"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/co2"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+            <EditText
+                android:id="@+id/minco2ET"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+
+            <EditText
+                android:id="@+id/maxco2ET"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="58dp"/>
+
+            <Button
+                android:id="@+id/co2Btn"
+                android:text="set"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:background="@color/theme_color"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="58dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- Notice -->
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SmartFarm</string>
+    <string name="client_delete">삭제</string>
+    <string name="send">저장</string>
+    <string name="list">목록</string>
+    <string name="title">제목</string>
+    <string name="addtitle">  제목 추가</string>
+    <string name="addmemo">  \n\n  내용 추가 \n\n</string>
+
+    <string name="data_make_subject">Status</string>
+    <string name="data_make_front">Graph</string>
+    <string name="data_make_end">Reference</string>
+
+    <string name="id_hint">아이디를 입력해주세요</string>
+    <string name="pw_hint">비밀번호를 입력해주세요</string>
+    <string name="time">기간</string>
+
+    <string name="home">홈</string>
+    <string name="about">정보</string>
+    <string name="logout">로그아웃</string>
+    <string name="delete">DB전체삭제</string>
+    <string name="search">Farm search</string>
+    <string name="search2">작업 검색</string>
+
+    <string name="gen">gen</string>
+    <string name="co2">Co2</string>
+    <string name="co2s">Co2</string>
+    <string name="lux">Light</string>
+    <string name="temp">Temp</string>
+    <string name="humid">Humid</string>
+
+    <string name="ppm">ppm</string>
+    <string name="light">Light(LUX)</string>
+    <string name="lights">Accumulation</string>
+
+    <string name="light2">(Sum of average values)</string>
+
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+
+    <string name="resent">Time</string>
+
+    <string name="temps">℃</string>
+    <string name="humids">%</string>
+</resources>
