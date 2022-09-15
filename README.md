@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=PHP&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/>
 <a href="https://ieeexplore.ieee.org/document/9268238" target="_blank">
-<img src="https://img.shields.io/badge/관련논문-FF0000?style=for-the-badge&logo=YouTube&logoColor=white"/>
+<img src="https://img.shields.io/badge/관련논문-FF0000?style=for-the-badge&logo=Apache&logoColor=white"/>
 </a>
 </div>
 
