@@ -65,7 +65,7 @@ Light Control Smart Farm Monitoring System with Reflector Control
 </a>
 
 
-## 수원 스마티움에 설치된 모델 
+## 더스마티움(The Smartium) 에 설치된 모델 
 - 반사판 조절대신 양액분사와 LED전원을 제어하도록 변경
 <img src="https://github.com/cjk09083/SmartFarm/blob/main/사진%20및%20영상/AquaForest/아쿠아포레스트소개(영문)-7.png" width="100%"/>
 
